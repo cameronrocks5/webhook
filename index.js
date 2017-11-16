@@ -1,6 +1,6 @@
 var express = require('express');
 var request = require('request');
-var bodyparser = require('bodyparser');
+var bodyparser = require('body-parser');
 
 var app = express();
 app.use(bodyparser.urlencoded({extended: true}));
